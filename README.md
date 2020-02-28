@@ -29,14 +29,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+forEach will simply call a provided function to an array to modify. Map on the other hand will take that array, copy it, utilize the function given, and return the new array.
 
 2. What is the difference between a function and a method?
+A function is an object with commands that invoke the value. A method is part of a class that will utilize the constructors and instructions given.
 
 3. What is closure?
+Mainly a function that has access to outside variables to perform its task.
 
 4. Describe the four rules of the 'this' keyword.
+1)Global/World Object Binding, Implicit Binding, Explicit Binding, and New Binding
 
 5. Why do we need super() in an extended class?
+To inherit the parent class the extended class is calling for. To replace the .call method.
 
 ## Project Set up
 
